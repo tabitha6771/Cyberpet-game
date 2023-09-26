@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #f1f659;
+    color: white;
+    padding: 20px 0;
+}
+
+.explanation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#animalSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animalPic {
+    margin: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.2s;
+}
+
+.animalPic:hover {
+    transform: scale(1.1);
+}
+
+#rubricDiv,
+#nurtureContainer,
+#lifesignContainer,
+#messageDiv {
+    display: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nurtureBox,
+.lifesignBox {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nurtureBox:hover {
+    background-color: #e0e0e0;
+}
+
+.lifesignLabel,
+.lifesignValue {
+    display: block;
+}
+
+#petPic {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+#Message {
+    background-color: #b2d631;
+    padding: 10px;
+    border: 1px solid #ddaaaa;
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #444;
+}
+
+
+button {
+    background-color: #bae445;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.cyberpet-image {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-item p {
+    margin: 5px 0;
+}
+
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 50%;
+
+}
